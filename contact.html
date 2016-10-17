@@ -6,7 +6,7 @@
     <title>Контакты</title>
 </head>
 <body>
-    <div class="menu">
+    <div class="header">
         <ul class="menu">
             <li><a href="index.html">Главная</a></li>
             <li><a href="./catalog/catalog.html">Каталог</a></li>
@@ -21,10 +21,11 @@
     <form action="">
         <fieldset>
             <legend>Форма письма</legend>
-            Ваше имя:<br><input class="text-name text-form" type="text" placeholder="Имя"><br>
-            Ваш имейл:<br><input class="text-form" type="email" placeholder="e-mail"><br>
-            Тема письма:<br><input class="text-form" type="text" placeholder="Тема"><br>
-            Текст письма:<br><input class="text-mess text-form" type="text">
+            Ваше имя:<br><input class="text-name text-form" type="text" placeholder="Имя" required><br>
+            Ваш имейл:<br><input class="text-form email" type="email" placeholder="e-mail" required><br>
+            Тема письма:<br><input class="text-form subject" type="text" placeholder="Тема" required><br>
+            Текст письма:<br><input class="text-mess text-form" type="text" required><br>
+            <input type="submit"> <input type="reset">
         </fieldset>
     </form>
 
@@ -36,9 +37,12 @@
     </ul>
     <p>Мы на карте:</p>
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=d7U4J-9F2818amKO1GOw8a0cYKkNuxqV&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+
+    <div class="footer">
+        <hr>
+        &copy;&nbsp;&laquo;Все права защищены&raquo;
+    </div>
 </body>
 <footer>
-    <hr>
-    Copyright &copy;&nbsp;2016 &laquo;Все права защищены&raquo;
 </footer>
 </html>
