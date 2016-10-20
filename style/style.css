@@ -132,6 +132,15 @@ span.detail-list{
     font-style: italic;
     margin-bottom: 20px;
 }
+/* Кнопка купить */
+.buy_but:hover{
+    color: green;
+    background-color: black;
+}
+.buy_but:active{
+    color: orange;
+    background-color: green;
+}
 /* Рамка изображений */
 .detail-img{
      border: 3px solid #c9c9c9;
