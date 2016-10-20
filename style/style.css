@@ -85,7 +85,7 @@ h4{
     font-weight: 400;
     background-color: #eaeaea;
 }
-/* Стиль описания */
+/* Описание товаров */
 .short-discription{
  color: #707070;
     font-size: 14px;
@@ -102,6 +102,10 @@ h4{
 .detail-discription:first-letter{
     font-size: 190%;
     color: red;
+}
+div.div_img{
+    float: left;
+    width: 360px;
 }
 /* Стиль характеристик */
 .detail-list{
