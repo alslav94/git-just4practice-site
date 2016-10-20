@@ -1,11 +1,42 @@
 body{
-    background-color: #f8f8f8;
+    background-color: #FFFFFF;
+}
+/* Контейнер */
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #F8F8F8;
+}
+/* Меню */
+.menu{
+    display: flex;
+}
+.menu li{
+    display: block;
+    flex-wrap: wrap;
+    line-height: 50px;
+}
+.menu li a{
+    padding: 12px;
+    padding-top: 14px;
+    padding-bottom: 24px;
+    color: #c9c9c9;
+}
+.menu li:hover a{
+    color: black;
+    background-color: #c9c9c9;
+    text-decoration: none;
+}
+div.header{
+    background-color: black;
+    height: 60px;
 }
 .logo{
-    height: 62px;
-    position: absolute;
-    right: 8px;
-    top: 8px;
+    height: 58px;
+    float: left;
+    position: relative;
+    border: 1px solid black;
+    margin-left: 10px;
 }
 /* Ссылки */
 A:link{
@@ -92,13 +123,6 @@ span.detail-list{
     font-style: italic;
     margin-bottom: 20px;
 }
-.email:focus{
-    background-color: #000;
-    color: #c9c9c9;
-}
-.email::first-letter .subject::first-letter .text-mess::first-letter{
-    text-transform: uppercase;
-}
 /* Рамка изображений */
 .detail-img{
      border: 3px solid #c9c9c9;
@@ -107,26 +131,6 @@ span.detail-list{
 .detail-img:hover{
     border: 3px solid #f8f8f8;
     border-radius: 10px;
-}
-/* Меню */
-.menu li{
-    display: inline;
-    line-height: 0;
-}
-.menu li a{
-    padding: 12px;
-    padding-top: 26px;
-    color: #c9c9c9;
-}
-.menu li:hover a{
-    color: black;
-    background-color: #c9c9c9;
-    text-decoration: none;
-}
-div.header{
-    background-color: black;
-    height: 50px;
-    padding-top: 10px;
 }
 /* Footer */
 div.footer {
