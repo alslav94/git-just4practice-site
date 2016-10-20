@@ -139,6 +139,13 @@ span.detail-list{
 }
 /* Footer */
 div.footer {
+    background-color: black;
     height: 50px;
     padding-bottom: 10px;
+}
+div.p_footer{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #c9c9c9;
 }
