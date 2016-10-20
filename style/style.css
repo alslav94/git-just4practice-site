@@ -150,6 +150,20 @@ span.detail-list{
     border: 3px solid #f8f8f8;
     border-radius: 10px;
 }
+/* Каталог */
+div.catalog_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.catalog_item{
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.catalog_img{
+    height: 300px;
+}
 /* Footer */
 div.footer {
     background-color: black;
