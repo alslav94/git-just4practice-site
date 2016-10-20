@@ -10,26 +10,31 @@ body{
 /* Меню */
 .menu{
     display: flex;
+    flex-direction: column;
+    float: right;
 }
-.menu li{
+.menu div.menu_li{
     display: block;
     flex-wrap: wrap;
     line-height: 50px;
+    width: 100px;
 }
-.menu li a{
+.menu div.menu_li a{
     padding: 12px;
     padding-top: 14px;
     padding-bottom: 24px;
     color: #c9c9c9;
 }
-.menu li:hover a{
-    color: black;
+.menu div.menu_li:hover{
     background-color: #c9c9c9;
+}
+.menu div.menu_li:hover a{
+    color: black;
     text-decoration: none;
 }
 div.header{
     background-color: black;
-    height: 60px;
+    height: 155px;
 }
 .logo{
     height: 58px;
