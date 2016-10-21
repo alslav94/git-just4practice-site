@@ -9,13 +9,10 @@ body{
 }
 /* Меню */
 .menu{
-    display: flex;
-    flex-direction: column;
     float: right;
 }
 .menu div.menu_li{
     display: block;
-    flex-wrap: wrap;
     line-height: 50px;
     width: 100px;
     background-color: black;
@@ -155,7 +152,6 @@ span.detail-list{
 /* Каталог */
 div.catalog_container{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 div.catalog_item{
